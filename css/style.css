@@ -18,5 +18,63 @@ img {
 }
 
 /* HEADER */
+.header {
+    background-color: aliceblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+.flex-header {
+    background-color: orange;
+    display: flex;
+
+
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.navigation {
+    border: 2px solid black;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+}
+
+.login {
+    border: 2px solid black;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+}
+
+.login button {
+    background-color: orange;
+    border: none;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    margin-right: 10px;
+}
+
 /* MAIN */
 /* FOOTER */
