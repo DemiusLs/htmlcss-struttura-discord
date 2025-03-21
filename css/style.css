@@ -17,6 +17,18 @@ img {
 
 }
 
+.blue-bg {
+    background-color: blue;
+}
+
+.white-bg {
+    background-color: white;
+}
+
+.gray-bg {
+    background-color: gray;
+}
+
 /* HEADER */
 .header {
     background-color: aliceblue;
@@ -77,4 +89,47 @@ img {
 }
 
 /* MAIN */
+/* non so come dare lo stesso padding ai felx-container
+ in modo da averli tutti equidistanti dalle section */
+section {
+    /* DEBUG */
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pink-container {
+    background-color: palevioletred;
+    width: 60%;
+    /* DEBUG */
+    min-height: 300px;
+    margin: 30px 0;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+
+}
+
+.col-40 {
+    background-color: pink;
+    width: 40%;
+    height: 300px;
+}
+
+.col-60 {
+    background-color: rgba(21, 192, 223, 0.719);
+    width: 60%;
+    height: 300px;
+}
+
+.green-container {
+    height: 500px;
+    background-color: green;
+    margin: 30px 0;
+
+}
+
 /* FOOTER */
