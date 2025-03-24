@@ -29,6 +29,10 @@ img {
     background-color: gray;
 }
 
+.dark-bg {
+    background-color: rgba(10, 2, 2, 0.719);
+}
+
 /* HEADER */
 .header {
     background-color: aliceblue;
@@ -126,10 +130,52 @@ section {
 }
 
 .green-container {
-    height: 500px;
+    height: 600px;
     background-color: green;
     margin: 30px 0;
 
 }
 
 /* FOOTER */
+.footer {
+    min-height: 500px;
+}
+
+.flex-footer {
+    display: flex;
+    padding: 5px 0 20px 0;
+
+
+}
+
+.col-big {
+    background-color: pink;
+    width: 30%;
+    min-height: 300px;
+
+}
+
+.col-small {
+    background-color: rgb(62, 208, 228);
+    min-height: 300px;
+    width: 17.5%;
+    background: 2px solid black;
+}
+
+.footer2 {
+    border: 2px solid gray;
+}
+
+.flex-footer2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aquamarine;
+    min-height: 30px;
+    margin-top: 10px;
+}
+
+.btn-footer {
+    background-color: pink;
+    border: 1px solid black;
+}
